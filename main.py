@@ -4,9 +4,9 @@ import requests
 pushplus_token = os.environ.get('pushplus_token')
 topic = os.environ.get('topic')
 
-image_url = "https://api.03c3.cn/api/zb"
+image_url = "https://60s.viki.moe/bing?e=image"
 
-text_url = "https://api.03c3.cn/api/zb?type=text" # Invalid
+text_url = "https://60s.viki.moe/bing?e=text"
 
 text_response = requests.get(text_url)
 content = text_response.text
